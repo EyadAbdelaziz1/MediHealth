@@ -18,10 +18,10 @@ AI-powered medication safety assistant — production-ready MVP with React Nativ
 
 ```bash
 cd server
-cp .env.example .env   # configure credentials
+cp .env.example .env
 npm install
-npm run setup:appwrite # create Appwrite collections
-npm run seed:demo      # preload demo account
+npm run setup:appwrite
+npm run seed:demo
 npm run dev
 ```
 
@@ -36,7 +36,7 @@ npx expo start
 ```
 
 - **Android emulator**: API uses `10.0.2.2:3000`
-- **Physical device**: set `API_BASE` in `src/services/api.ts` to your machine IP
+- **Physical device**: set production API URL in `app.json` `extra.apiBaseUrl`
 
 ### 3. Demo Account (for judges)
 
@@ -62,16 +62,16 @@ Tap **Enter Demo** on the login screen or use credentials above.
 
 ```
 MediHealth/
-├── client/          # Expo React Native app
-│   ├── app/         # Expo Router screens
-│   └── src/         # Components, contexts, services
-├── server/          # Express API
+├── client/           # Expo React Native app
+│   ├── app/          # Expo Router screens
+│   └── src/          # Components, contexts, services
+├── server/           # Express API
 │   ├── src/
-│   │   ├── ai/           # System prompts
-│   │   ├── routes/       # API routes
-│   │   ├── services/     # AI, web research, Appwrite DB
-│   │   └── types/        # Medical types
-│   └── scripts/     # Appwrite setup & demo seed
+│   │   ├── ai/       # System prompts
+│   │   ├── routes/   # API routes
+│   │   ├── services/ # AI, web research, Appwrite DB
+│   │   └── types/    # Medical types
+│   └── scripts/      # Appwrite setup & demo seed
 └── README.md
 ```
 
