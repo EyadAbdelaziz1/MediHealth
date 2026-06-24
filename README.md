@@ -113,4 +113,4 @@ See `server/.env.example`. Never commit `.env` or expose API keys in the client.
 
 ## License
 
-Proprietary — MediHealth AI MVP
+MIT License
