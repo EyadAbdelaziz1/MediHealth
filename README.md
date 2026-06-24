@@ -38,7 +38,7 @@ npx expo start
 - **Android emulator**: API uses `10.0.2.2:3000`
 - **Physical device**: set production API URL in `app.json` `extra.apiBaseUrl`
 
-### 3. Demo Account (for judges)
+### 3. Demo Account 
 
 | Field | Value |
 |-------|-------|
