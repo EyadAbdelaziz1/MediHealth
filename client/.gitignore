@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.expo/
+
+# Build artifacts
+.build-tools/
+dist/
+*.apk *.aab *.apks
+
+# Gradle
+.gradle/
+android/.gradle/
+android/.cxx/
+android/app/build/
+android/build/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+*.log

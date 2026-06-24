@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.expo/
+
+# Build artifacts
+.build-tools/
+dist/
+*.apk
+*.aab
+*.apks
+
+# Gradle
+.gradle/
+android/.gradle/
+android/.cxx/
+android/app/build/
+android/build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/

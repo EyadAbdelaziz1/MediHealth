@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "MediHealth AI",
+    "slug": "medihealth",
+    "version": "1.0.0",
+  "sdkVersion": "53.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2563EB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medihealth.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2563EB"
+      },
+      "package": "com.medihealth.app",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "scheme": "medihealth",
+    "plugins": [],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "452fa0f3-bade-4dc8-b656-6ab3ed901c7c",
+    "apiBaseUrl": "https://medihealth-api.railway.app/api"
+      }
+    }
+  }
+}

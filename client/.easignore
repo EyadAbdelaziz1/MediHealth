@@ -1,0 +1,19 @@
+# Omit everything by default, then re-include source
+*
+!.gitignore
+!.easignore
+!package.json
+!package-lock.json
+!app.json
+!metro.config.js
+!tailwind.config.js
+!nativewind-env.d.ts
+!expo-env.d.ts
+!babel.config.js
+!tsconfig.json
+!app/
+!app/**/*
+!src/
+!src/**/*
+!assets/
+!assets/**/*
